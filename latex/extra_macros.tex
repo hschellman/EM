@@ -1,0 +1,182 @@
+\def\\{\hfill\break}
+\def\note#1{\hbox{\hskip 350 pt #1 \hfill}}
+
+%\newcommand{\ignore}[1]{}
+% stuff for a25
+%\newcommand{\V}[1]{\vec{\mathbf #1}}
+\newcommand{\cosec}{\hbox{cosec}}
+\newcommand{\xprime}{x^\prime}
+\newcommand{\xdoubleprime}{x^{\prime\prime}}
+\newcommand{\xprimevec}{{\bf{x}^\prime}}
+\newcommand{\xdoubleprimevec}{{\bf{x}^{\prime\prime}}}
+\newcommand{\xvec}{{\bf{x}}}
+\newcommand{\V}[1]{{\bf #1}}
+\newcommand{\bvec}[1]{{\bf #1}}
+\newcommand{\unit}[1]{\hat{\mathbf #1}}
+\newcommand{\dV}{d\mathcal{V}}
+\newcommand{\Vcal}{\mathcal{V}}
+\newcommand{\K}{\frac{1}{4\pi \epsilon_0}}
+\newcommand{\bigK}{\mathlarger{\K}}
+\newcommand{\bigsum}{\mathlarger{\sum}}
+\newcommand{\oneover}[1]{\frac{1}{#1}}
+\newcommand{\oneovereps}{\frac{1}{\epsilon_0}}
+\newcommand{\oneoverpieps}{\frac{1}{\pi\epsilon_0}}
+\newcommand{\oneovertwopieps}{\frac{1}{2\pi\epsilon_0}}
+\newcommand{\oneovertwoeps}{\frac{1}{2\epsilon_0}}
+\newcommand{\oneoverfourpi}{\frac{1}{4\pi}}
+\newcommand{\onehalf}{\frac{1}{2}}
+\newcommand{\onehalfsmall}{{\textstyle{\frac{1}{2}}}}
+
+\newcommand{\beq}{\begin{eqnarray}}
+\newcommand{\eeq}{\end{eqnarray}}
+\newcommand{\beqn}{\begin{eqnarray*}}
+\newcommand{\eeqn}{\end{eqnarray*}}
+\newcommand{\normalderiv}[1]{\frac{\partial #1}{\partial n}}
+\providecommand{\rprime}[0]{r^{\prime}}
+\providecommand{\rprimev}[0]{\V{r}^{\prime}}
+\providecommand{\vrprime}[0]{\V{r}^{\prime}}
+\providecommand{\vr}[0]{\V{r}}
+\providecommand{\gt}[0]{\rightarrow}
+\providecommand{\vE}[0]{\V{E}}
+\providecommand{\vEtot}[0]{\V{E}_{TOT}}
+\providecommand{\vEext}[0]{\V{E}_{EXT}}
+\providecommand{\xhat}[0]{\hat{\bf{x}}}
+\providecommand{\yhat}[0]{\hat{\bf{y}}}
+\providecommand{\zhat}[0]{\hat{\bf{z}}}
+\providecommand{\rhat}[0]{\hat{\bf{r}}}
+\providecommand{\shat}[0]{\hat{\bf{s}}}
+\providecommand{\rvec}[0]{{\bf{r}}}
+\providecommand{\svec}[0]{{\bf{s}}}
+
+\providecommand{\phihat}[0]{\hat{\bf{\phi}}}
+\providecommand{\nhat}[0]{\hat{\bf n}}
+\providecommand{\nhatprime}[0]{\hat{\bf n}^\prime}
+\providecommand{\khat}[0]{\hat{\bf k}}
+\providecommand{\GreenF}[0]{G(\xvec,\xprimevec)}
+\providecommand{\GreenFN}[0]{G_N(\xvec,\xprimevec)}
+%\providecommand{\del}[0]{\nabla}
+\providecommand{\gradient}[0]{\V{\nabla}}
+\providecommand{\gradientprime}[0]{\V{\nabla}^{\prime}}
+\providecommand{\gradientprimeii}[0]{\V{\nabla}^{\prime 2}}
+\providecommand{\delx}[1]{\frac{\partial #1}{\partial x}}
+\providecommand{\dely}[1]{\frac{\partial #1}{\partial y}}
+\providecommand{\delz}[1]{\frac{\partial #1}{\partial z}}
+\providecommand{\delt}[1]{\frac{\partial #1}{\partial t}}
+\providecommand{\oneover}[1]{\frac{1}{#1}}
+\providecommand{\partialx}{\frac{\partial }{\partial x}}
+\providecommand{\partialy}{\frac{\partial }{\partial y}}
+\providecommand{\partialz}{\frac{\partial }{\partial z}}
+\providecommand{\partialt}{\frac{\partial }{\partial t}}
+\providecommand{\partialr}{\frac{\partial }{\partial r}}
+\providecommand{\partialrho}{\frac{\partial}{\partial \rho}}
+\providecommand{\partialphi}{\frac{\partial}{\partial \phi}}
+\providecommand{\partialrhoof}[1]{\frac{\partial #1}{\partial \rho}}
+\providecommand{\partialphiof}[1]{\frac{\partial #1}{\partial \phi}}
+\providecommand{\partialphiphi}{\frac{\partial^2 }{ \partial \phi^2}}
+\providecommand{\partialphiphiof}[1]{\frac{\partial^2 #1}{\partial \phi^2}}
+
+\providecommand{\partialxt}{\frac{\partial^2 }{\partial x^2}}
+\providecommand{\partialyt}{\frac{\partial^2 }{\partial y^2}}
+\providecommand{\partialzt}{\frac{\partial^2 }{\partial z^2}}
+\providecommand{\partialtt}{\frac{\partial^2 }{\partial t^2}}
+\providecommand{\partialrt}{\frac{\partial^2 }{\partial r^2}}
+
+\providecommand{\fullxt}{\frac{d^2 }{d x^2}}
+\providecommand{\fullyt}{\frac{d^2 }{d y^2}}
+\providecommand{\fullzt}{\frac{d^2 }{d z^2}}
+\providecommand{\fulltt}{\frac{d^2 }{d t^2}}
+\providecommand{\fullrt}{\frac{d^2 }{d r^2}}
+\providecommand{\fullx}{\frac{d }{d x}}
+\providecommand{\fully}{\frac{d }{d y}}
+\providecommand{\fullz}{\frac{d }{d z}}
+\providecommand{\fullt}{\frac{d }{d t}}
+\providecommand{\fullr}{\frac{d }{d r}}
+\providecommand{\fullrrof}[1]{\frac{d^2 #1 }{d r^2}}
+\providecommand{\fulltheta}{\frac{d }{d\theta}}
+\providecommand{\fullthetaof}[1]{\frac{d #1}{d\theta}}
+\providecommand{\fullphiof}[1]{\frac{d #1}{d\phi}}
+\providecommand{\fullrhoof}[1]{\frac{d #1}{d\rho}}
+\providecommand{\fullrho}{\frac{d }{d\rho}}
+\providecommand{\fullphiphiof}[1]{\frac{d^2 #1}{d\phi^2}}
+\providecommand{\fullphiphi}{\frac{d^2 }{d\phi^2}}
+\providecommand{\fullcos}{\frac{d }{d\cos\theta}}
+\providecommand{\fullcosof}[1]{\frac{d #1}{\cos\theta}}
+%\providecommand{\partialphiphiof}[1]{\frac{\partial^2 } {\partial \phi^2}}
+
+
+\providecommand{\meters}[0]{\hbox{m}}
+\providecommand{\coulombs}[0]{\hbox{C}}
+\providecommand{\farads}[0]{\hbox{F}}
+
+\providecommand{\abs}[1]{| #1 |}
+\providecommand{\amperes}[0]{\hbox{A}}
+\providecommand{\newtons}[0]{\hbox{N}}
+\providecommand{\DV}[0]{\Delta V}
+\providecommand{\ohms}[0]{\Omega}
+\providecommand{\volts}[0]{\hbox{V}}
+\providecommand{\watts}[0]{\hbox{W}}
+\providecommand{\kg}[0]{\hbox{kg}}
+\providecommand{\amu}[0]{\hbox{amu}}
+\providecommand{\Tesla}[0]{\hbox{T}}
+\providecommand{\secs}[0]{\hbox{sec}}
+\providecommand{\Volts}[0]{\hbox{V}}
+\providecommand{\Joules}[0]{\hbox{J}}
+\providecommand{\pf}[0]{\hbox{pf}}
+\providecommand{\henries}[0]{\hbox{Henries}}
+\newcommand{\oneoverepsilon}{\frac{1}{\epsilon_0}}
+\providecommand{\JV}[0]{\V{J}}
+
+\providecommand{\vv}[0]{\V{v}}
+\providecommand{\vF}[0]{\V{F}}
+\providecommand{\vB}[0]{\V{B}}
+\providecommand{\vp}[0]{\V{p}}
+\providecommand{\vperp}[0]{\vv_{\perp}}
+\providecommand{\vpar}[0]{\vv_{||}}
+\providecommand{\cross}[0]{\times}
+\providecommand{\vpperp}[0]{\vp_{\perp}}
+\providecommand{\pperp}[0]{p_{\perp}}
+
+\providecommand{\dvl}[0]{d\V{l}}
+\providecommand{\vT}[0]{\V{T}}
+
+\providecommand{\mufac}[0]{\frac{\mu_0}{ 4\pi}}
+
+\providecommand{\Ampere}[0]{Amp\`ere} 
+\providecommand{\thetahat}[0]{\hat{\mathbf \theta}}
+
+\providecommand{\EMF}[0]{{\cal E}}
+
+\providecommand{\vM}[0]{\V{M}}
+\providecommand{\vm}[0]{\V{m}}
+
+\providecommand{\smallprime}[0]{\scriptscriptstyle{\prime}}
+%\providecommand{\rprime{\vec{r}^{\lprime}}
+
+\providecommand{\crossp}[2]{{#1}\times{#2}}
+\providecommand{\dotp}[2]{{#1{\boldsymbol{\cdot}}#2}}
+\providecommand{\curfac}{{4\pi{c}}}
+\providecommand{\head}[1]{\vskip .3 in\hbox{\bf #1 \rm }}
+\providecommand{\rdif}[0]{\vec{r}-{\rprime}}
+\providecommand{\bigsp}[0]{\qquad}
+\providecommand{\exampl}[0]{\item }
+
+
+\providecommand{\del}[0]{{\nabla}}
+\providecommand{\deldot}[1]{{{\nabla}{\LARGE \cdot}#1}}
+
+\providecommand{\emf}[0]{{\cal E}}
+\providecommand{\invc}[0]{\frac{1}{c}}
+\providecommand{\pderiv}[2]{\frac{\partial#1}{\partial#2}}
+\providecommand{\pderivii}[2]{\frac{\partial^2 #1}{\partial#2^2}}
+\providecommand{\sderiv}[2]{\frac{d^2#1}{d#2^2}}
+\providecommand{\deriv}[2]{\frac{d#1}{d#2}}
+\providecommand{\dIdt}{\frac{dI}{dt}} 
+\providecommand{\dline}[0]{d\vec{s}}
+\newcommand{\Eofx}[0]{\V{E}(\V x)}
+\newcommand{\Eofxprime}[0]{\V{E}(\V{x}^{\prime})}
+\providecommand{\rhoofx}[0]{\rho(\V x)}
+\providecommand{\rhoofxprime}[0]{\rho(\V{x}^{\prime})}
+\providecommand{\xminusxprime}[0]{\V x - \V{x}^{\prime}}
+\providecommand{\oneoverxminusxprime}[0]{\frac{1}{|\V x - \V{x}^{\prime}|}}
+\providecommand{\oneover}[1]{#1}
+
